@@ -1,10 +1,10 @@
 <!-- <p>pie works!</p> -->
 
-<div class="pie">
+<div class="pie"  *ngIf="pieChartData">
     <canvas
       baseChart
       [data]="pieChartData"
-      [type]="pieChartType"
+      [type]="type"
       [options]="pieChartOptions"
     >
     </canvas>

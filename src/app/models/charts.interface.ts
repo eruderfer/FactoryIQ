@@ -1,4 +1,4 @@
-export interface IpieChart {
+export interface IPieChart {
     labels: string[];
     datasets:IpieDataSet[]
 }
