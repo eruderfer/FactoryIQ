@@ -11,8 +11,4 @@ export interface Metrics {
     metrics: Metrics;
   }
   
-  export interface Department {
-    id: number;
-    name: string;
-    machines: Machine[];
-  }
+ 
